@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'zhizn';
+    src: url('./../fonts/zhizn.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    cursor: url(images/killer.svg) 0 0, pointer;
+    background-image: url(images/park1.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    user-select: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+img {
+    width: 5%;
+    user-select: none;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+img:last-child {
+    width: 8%;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+p {
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 5%;
+    font-size: 24px;
+    color: black;
+    font-family: 'zhizn', sans-serif;
+    line-height: 48px;
+}
+
+p span {
+    color: #f18d8d;
+}
+
+button {
+    position: absolute;
+    padding: 10px 40px;
+    border-radius: 30px;
+    background: #004B83;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+    bottom: 5%;
+    left: 42%;
+
+
+}
+
+button:hover {
+    border: none;
+    background: #C7E9FF;
+    color: #004B83;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+button:active {
+    background: radial-gradient(hsl(0, 0%, 100%), hsl(207, 85%, 92%));
+}

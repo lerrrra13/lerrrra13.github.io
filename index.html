@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Промо-сайт детского средства от комаров "Анти-Бзз"</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/normalize.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/hover.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/loader.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/modal.css" rel="stylesheet" type="text/css"/>
+    <link href="styles/quiz.css" rel="stylesheet" type="text/css">
+    <link rel="icon" sizes="30x30" href="favicon.ico"/>
+    <link rel="icon"
+            sizes="180x180"
+            href="./favicon_io/apple-touch-icon.png"/>
+    <link rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./favicon_io/favicon-32x32.png"/>
+    <link rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./favicon_io/favicon-16x16.png"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap"
+            rel="stylesheet"/>
+    <link href="styles/vjs.zencdn.net_8.3.0_video-js.css" rel="stylesheet"/>
+</head>
+<body>
+<!-- Прелоадер -->
+<div class="preloader">
+    <svg class="zdog-svg" width="480" height="240"></svg>
+</div>
+
+<!-- основной контент -->
+<div class="header">
+    <div class="logo">
+        <a href=""> <img src="images/logo.svg" alt="logo"/></a>
+    </div>
+    <ul class="menu">
+        <li class="p1"><a href="#About_brand"> О бренде </a></li>
+
+        <li class="p2"><a href="#Advantages"> Преимущества </a></li>
+
+        <li class="p3"><a href="#Advices"> Советы экспертов </a></li>
+
+        <li class="p4"><a href="#Shops"> Где купить </a></li>
+
+        <li class="p5"><a href="#Contacts"> Контакты </a></li>
+    </ul>
+    <div class="button_test_burger">
+        <div class="button-test" id="start_test">Пройти тест</div>
+
+        <div class="header__burger"></div>
+    </div>
+    <nav class="header__menu">
+        <ul class="header__list">
+            <li>
+                <a href="#About_brand" class="header__link">О бренде</a>
+            </li>
+            <li>
+                <a href="#Advantages" class="header__link">Преимущества</a>
+            </li>
+            <li class="header__list">
+                <a href="#Advices" class="header__link">Советы экспертов</a>
+            </li>
+            <li class="header__list">
+                <a href="#Shops" class="header__link">Где купить</a>
+            </li>
+            <li class="header__list">
+                <a href="#Contacts" class="header__link">Контакты</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<!-- Тест-->
+<div id="test">
+    <div class="wrapper">
+        <main class="main">
+            <div class="quiz__head">
+
+                <div class="title_test"><p>Тест "Комариный апокалипсис"<br>
+                    <span>Узнаем, как вы будете бороться с комариной армией:)</span>
+                </p></div>
+                <div class="head__content" id="head">Вопрос</div>
+            </div>
+            <div class="quiz__body">
+                <div class="buttons">
+                    <div class="buttons__content" id="buttons">
+                        <button class="button">Default button</button>
+                        <br>
+                        <button class="button button_wrong">Wrong answer</button>
+                        <br>
+                        <button class="button button_correct">Correct answer</button>
+                        <br>
+                        <button class="button button_passive">Unclicked button</button>
+                        <br>
+                    </div>
+                </div>
+
+                <div class="quiz__footer">
+                    <div class="footer__content" id="pages">0 / 0</div>
+                </div>
+                <div class="quiz__result">
+                    <a href=""></a>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<div class="block_1_bzz">
+    <h1 class="main_title">
+        Новый детский защитник <br/><span>"Анти-Бзз"</span>
+    </h1>
+    <div class="main_fon">
+        <div class="field" id="field">
+            <div class="field_text">
+                <p>
+                    Анти-Бзз уже защитил многих детей от укусов!<br/>
+                    Он стойко стоит на страже <br/>
+                    и не пропускает ни одного противника!
+                </p>
+            </div>
+            <button id="video_play" class="start_play">Видео-презентация</button>
+        </div>
+        <div class="video" id="videoScreen">
+            <video
+                    id="video"
+                    class="video-js"
+                    controls
+                    preload="auto"
+                    width="360"
+                    poster="images/poster.svg"
+                    data-setup="{}"
+            >
+                <source src="video/bzz.mp4" type="video/mpeg4"/>
+                <source src="video/bzz.mp4" type="video/webm"/>
+                <p class="vjs-no-js">
+                    Для просмотра этого видео включите JavaScript и рассмотрите
+                    возможность перехода на веб-браузер, который
+                    <a href="https://videojs.com/html5-video-support/" target="_blank"
+                    >поддерживает HTML5 видео</a
+                    >
+                </p>
+            </video>
+        </div>
+    </div>
+</div>
+<div class="block_2_brand">
+    <div><h2 class="title2" id="About_brand">О бренде</h2></div>
+    <div class="about_brand">
+        <div class="brand">
+            <div class="brand_logo">
+                <img src="images/logo.svg" alt="logo"/>
+            </div>
+            <div class="brand_text">
+                <p>
+                    -Мы защищаем детей от комариных укусов более 5 лет! <br/>
+                    -Используем только проверенные формулы, безопасные для нежной
+                    детской кожи <br/>
+                    -Идем в ногу со временем и используем самое веселое оформление для
+                    спасительных флакончиков<br/>
+                    -Сертифицируем и тестируем свою продукцию
+                </p>
+            </div>
+            <div class="brand_link">
+                <a href="https://emall.by/product/1428906" target="_blank"
+                >Узнать больше</a
+                >
+            </div>
+            <div class="strelka">
+                <img src="images/strelka.svg" alt="arrow"/>
+            </div>
+        </div>
+        <div class="certificate">
+            <div class="title_cert">Наши лицензии и сертификаты</div>
+            <div class="cert_block_1">
+                <div class="cert_1">
+                    <a href="images/certificates/sert_1.png" target="_blank">
+                        <img src="images/certificates/sert_1.png" alt="certificate"
+                        /></a>
+                </div>
+                <div class="cert_2">
+                    <a href="images/certificates/sert_2.png" target="_blank">
+                        <img src="images/certificates/sert_2.png" alt="certificate"
+                        /></a>
+                </div>
+                <div class="cert_3">
+                    <a href="images/certificates/sert_3.png" target="_blank">
+                        <img src="images/certificates/sert_3.png" alt="certificate"
+                        /></a>
+                </div>
+            </div>
+            <div class="cert_block_2">
+                <div class="cert_4">
+                    <a href="images/certificates/sert_4.png" target="_blank">
+                        <img src="images/certificates/sert_4.png" alt="certificate"
+                        /></a>
+                </div>
+                <div class="cert_5">
+                    <a href="images/certificates/sert_5.png" target="_blank">
+                        <img src="images/certificates/sert_5.png" alt="certificate"
+                        /></a>
+                </div>
+                <div class="cert_6">
+                    <a href="images/certificates/sert_1.png" target="_blank">
+                        <img src="images/certificates/sert_6.png" alt="certificate"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block_3_preimushestva">
+    <div><h2 class="title3" id="Advantages">Преимущества</h2></div>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="images/preimuschestva/best1.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best2.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best3.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best4.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best5.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best1.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best2.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best3.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best4.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best5.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best1.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best2.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best3.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best4.svg" alt=""/>
+            </div>
+            <div class="slide">
+                <img src="images/preimuschestva/best5.svg" alt=""/>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block_4_game">
+    <div><h2 class="title4">Игра "Хлопни комара"</h2></div>
+    <div class="game">
+        <div class="bzz" id="bzz">
+            <img class="bz move-right" src="images/bzz.svg" alt="moskito"/>
+        </div>
+        <div class="nobzz">
+            <img src="images/nofly.svg" alt="nomoskito"/>
+        </div>
+        <form action="game/play.html">
+            <button class="start_play">Начать игру</button>
+        </form>
+    </div>
+</div>
+<div class="block_5_expert">
+    <div><h2 class="title5" id="Advices">Советы экспертов</h2></div>
+    <div class="advices_5">
+        <div>
+            <div class="expert_5">
+                <p class="expert_title">Эксперт</p>
+                <div class="foto_expert_5">
+                    <img src="images/avatar.png" alt="foto"/>
+                </div>
+                <p class="expert_name">Лера Паучкова</p>
+                <p class="expert_spec">
+                    Специалист по разработке товаров бытовой химии
+                </p>
+                <div class="text_expert_5">
+                    <p>
+                        Привет! В этой рубрике можно найти информацию о комарах и
+                        способах борьбы с ними, а еще об укусах, их последствиях и
+                        способах облегчения зуда. Если у вас есть вопросы - с
+                        удовольствием на них отвечу и опубликую здесь ответ.
+                        Беззаботного лета!
+                    </p>
+                </div>
+                <button class="question_button_5" id="show-popup">
+                    Задать вопрос
+                </button>
+                <div>
+                    <div class="popup">
+                        <div class="popup__container">
+                            <div class="popup__wrapper">
+                                <div id="pop">
+                                    <div class="form">
+                                        <form novalidate id="form">
+                                            <div class="x">
+                                                <button class="close" type="button" id="x">
+                                                    x
+                                                </button>
+                                            </div>
+                                            <h3>Задать вопрос эксперту</h3>
+                                            <label for="name">Имя</label>
+                                            <input
+                                                    autocomplete=" "
+                                                    id="name"
+                                                    name="name"
+                                                    placeholder="Лера"
+                                                    size="26"
+                                                    type="text"
+                                            />
+                                            <label for="family">Фамилия</label>
+                                            <input
+                                                    autocomplete=" "
+                                                    id="family"
+                                                    name="family"
+                                                    placeholder="Иванов"
+                                                    size="26"
+                                                    type="text"
+                                            />
+                                            <label for="mail">E-mail</label>
+                                            <input
+                                                    autocomplete=" "
+                                                    id="mail"
+                                                    name="mail"
+                                                    placeholder="lera@lera.by"
+                                                    size="26"
+                                                    type="email"
+                                            />
+                                            <label for="question">Опишите вопрос</label>
+                                            <input
+                                                    autocomplete=" "
+                                                    id="question"
+                                                    name="text"
+                                                    placeholder="Задайте ваш вопрос"
+                                                    size="26"
+                                                    type="text"
+                                            />
+                                            <button>
+                                                <input
+                                                        type="submit"
+                                                        id="submit"
+                                                        value="Отправить"
+                                                />
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="questions_block_5">
+            <p class="accordionItemHeading" id="all">
+                <a data-tooltip="Переход на антикомариный форум"
+                        target="_blank"
+                        href="https://www.forumhouse.ru/threads/209115/">
+                    Все вопросы</a>
+            </p>
+            <div class="accordionWrapper">
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">Кого чаще кусают комары?</p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Комары чаще кусают сердечников с атеросклерозом и тучных
+                            людей, которые привлекают их выделяемым «запахом» холестерина.
+                            Кроме того, любимой мишенью для укусов являются обладатели 1 и
+                            2 групп крови и дети.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">
+                        В какое время суток чаще всего кусают комары?
+                    </p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Комары и многие другие виды больше активны вечером. Они любой
+                            ценой избегают дневное время, так как из-за солнца они могут
+                            высохнуть и погибнуть. Более того, в течение дня эти виды ищут
+                            места попрохладнее, где побольше тени и влаги, и прячутся там
+                            до самого заката.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">
+                        Что делать, если укус очень сильно чешется и опухает?
+                    </p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Место укуса промыть водой с мылом или обработать антисептиком.
+                            Чтобы снять зуд и отек, надо приложить холод, поможет тот же
+                            содовый компресс, антигистаминный крем (гель, мазь).
+                        </p>
+                    </div>
+                </div>
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">
+                        Аллергия на комариные укусы - что делать?
+                    </p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Как и с любой другой аллергической реакцией, основных причин
+                            несколько:<br/>
+                            - повышенная чувствительность к определенным раздражителям.
+                            Часто к таким реакциям приводят ослабленный иммунитет, вредные
+                            привычки, нарушение обмена веществ;<br/>
+                            - генетическая предрасположенность. Плохая переносимость
+                            укусов кровососущих паразитов одним из родителей повышает
+                            вероятность развития аллергии у ребенка.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">
+                        Как защитить ребенка до 2-х лет от комариных укусов?
+                    </p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Пока ребенок маленький, его легко накрывать накидкой от
+                            комаров прямо в коляске. В некоторых случаях удобно
+                            использовать защитную одежду или шатры с антимоскитными
+                            сетками. В помещениях можно использовать ультразвуковые
+                            приспособления для отпугивания кровососущих. Ультразвук хорош
+                            тем, что не оказывает вредное воздействие на ребенка и может
+                            работать сутки напролет. На улице можно использовать средства
+                            от комаров для нанесения на одежду.
+                        </p>
+                    </div>
+                </div>
+                <div class="accordionItem close">
+                    <p class="accordionItemHeading">
+                        Кожа склонна к аллергии - как защитить от укусов?
+                    </p>
+                    <div class="accordionItemContent">
+                        <p>
+                            Выбирая кремы или лосьоны от укусов комаров для детей –
+                            врач-дерматолог советует придерживаться указанных на упаковке
+                            рекомендаций. Как правило, наносить детям такие средства можно
+                            с двух-трех лет. Если малыш не аллергичен – сами по себе эти
+                            средства особого вреда не несут. Другое дело – слишком
+                            “чувствительный” к аллергиям малыш – тогда надо
+                            консультироваться с врачом.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block_6_shops">
+    <div><h2 class="title6" id="Shops">Где купить</h2></div>
+    <div class="logo_buttons_6">
+        <button class="ofline_6">Офлайн-магазины</button>
+        <div class="logo_6">
+            <a
+            ><img id="logo" class="logo_61" src="images/logo.svg" alt="logo"
+            /></a>
+        </div>
+        <button class="online_6">Онлайн-магазины</button>
+    </div>
+    <div class="logos_6">
+        <div class="toggle-element">
+            <a href="https://healthplanet.by" target="_blank">
+                <img
+                        id="img1"
+                        src="images/shops_logo/shop_logo.svg"
+                        alt="shop_logo"/>
+                <span class="mask"><img src="images/hover_shop.svg" alt=""/></span
+                ></a>
+        </div>
+        <div class="toggle-element">
+            <a href="https://sosedi.by" target="_blank">
+                <img
+                        id="img2"
+                        src="images/shops_logo/shop_logo_2.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg " alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element">
+            <a href="https://svetoforbel.by" target="_blank">
+                <img
+                        id="img3"
+                        src="images/shops_logo/shop_logo_3.svg"
+                        alt="shop_logo"/>
+                <span class="mask"><img src="images/hover_shop.svg" alt=""/></span
+                ></a>
+        </div>
+        <div class="toggle-element">
+            <a href="https://kolibricolor.by" target="_blank">
+                <img
+                        id="img4"
+                        src="images/shops_logo/shop_logo_4.svg"
+                        alt="shop_logo"/>
+                <span class="mask"><img src="images/hover_shop.svg" alt=""/></span
+                ></a>
+        </div>
+        <div class="toggle-element">
+            <a href="#" target="_blank">
+                <img
+                        id="img5"
+                        src="images/shops_logo/shop_logo_5.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element1">
+            <a href="#" target="_blank">
+                <img
+                        id="img6"
+                        src="images/shops_logo/shop_logo_6.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element1">
+            <a href="#" target="_blank">
+                <img
+                        id="img7"
+                        src="images/shops_logo/shop_logo_7.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element1">
+            <a href="#" target="_blank">
+                <img
+                        id="img8"
+                        src="images/shops_logo/shop_logo_8.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element1">
+            <a href="#" target="_blank">
+                <img
+                        id="img9"
+                        src="images/shops_logo/shop_logo_9.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+        <div class="toggle-element1">
+            <a href="#" target="_blank">
+                <img
+                        id="img10"
+                        src="images/shops_logo/shop_logo_10.svg"
+                        alt="shop_logo"/><span class="mask">
+              <img src="images/hover_shop.svg" alt=""/></span
+            ></a>
+        </div>
+    </div>
+</div>
+<div class="block_7_contacts">
+    <div><h2 class="title7" id="Contacts">Контакты</h2></div>
+    <div class="info_7">
+        <div class="map">
+            <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.6711200056907!2d27.575001276678957!3d53.91981987246119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf84a9511139%3A0x3be3534f5f48775e!2z0JrQsNC80LDRgNC-0Z7RgdC60ZYg0YDRi9C90LDQug!5e0!3m2!1sru!2sby!4v1688720528914!5m2!1sru!2sby"
+                    width="690"
+                    height="450"
+                    style="border: 0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+        </div>
+        <div class="contacts_icons_7">
+            <div class="contacts_7">
+                <div class="adress">Адрес: РБ, г. Минск, ул. Антикомариная 17</div>
+                <div class="tel_1">
+                    <a href="tel:+375291760539"
+                    >Тел. отдела продаж: 8 (029) 177 77 77</a
+                    >
+                </div>
+                <div class="tel_2">
+                    <a href="tel:+375291760539"
+                    >Тел. службы сбыта: 8 (029) 177 77 78</a
+                    >
+                </div>
+                <div class="tel_3">
+                    <a href="tel:+375291760539"
+                    >Тел. производства: 8 (029) 177 77 79</a
+                    >
+                </div>
+                <div class="tel_4">
+                    <a href="tel:+375291760539"
+                    >Приемная директора: 8 (029) 177 77 80</a
+                    >
+                </div>
+            </div>
+            <div class="icons_block_7">
+                <div class="title_icons_7">Мы в соц.сетях и мессенджерах:</div>
+                <div class="icons_7">
+                    <a
+                            class="icon_1"
+                            href="viber://chat?number= [+375291760539]"
+                            target="_blank"
+                    ><img src="images/viber.svg" alt="viber"
+                    /></a>
+                    <a class="icon_2" href="https://t.me/LeraSobol" target="_blank"
+                    ><img src="images/telegram.svg" alt="telegram"
+                    /></a>
+                    <a
+                            class="icon_3"
+                            href="mailto:lerrrra13@gmail.com"
+                            target="_blank"
+                    ><img src="images/mail.svg" alt="mail"
+                    /></a>
+                    <a
+                            class="icon_4"
+                            href="https://www.linkedin.com/in/valeryia-sobal-0032299b/"
+                            target="_blank"
+                    ><img src="images/linkedIn.svg" alt="linkedIn"
+                    /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="block_8_footer">
+    <div class="footer_left_block">
+        <div class="footer_logo">
+            <img src="images/logo.svg" alt="logo"/>
+        </div>
+        <div class="footer_hearts">
+            <img src="images/hearts.svg" alt="heart"/>
+        </div>
+        <div class="footer_slogan">Сделано с любовью к детям</div>
+    </div>
+    <div class="footer_info">
+        <div class="license">
+            <a href="./documents/GMP_228_2023.pdf" target="_blank"
+            >Лицензия минздрава на средство “Анти-Бзз”
+            </a>
+        </div>
+        <div class="author">© 2023 Все права защищены. Разработано LeraSo</div>
+    </div>
+</div>
+
+<script src="js/zdog.dist.min.js"></script>
+<!-- лоадер -->
+<script src="js/zdog-demo.js"></script>
+<!--  -->
+<script src="js/index.js"></script>
+<script src="js/modal.js"></script>
+<!-- попап -->
+<script src="js/vjs.zencdn.net_8.3.0_video.min.js"></script>
+<!-- видео -->
+<script src="js/quiz.js"></script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover, /* при наведении */
+a {
+    text-decoration: none;
+    color: #4E4E4E;
+}
+
+li::before {
+    content: '⚞';
+    opacity: 0;
+    transition: all 0.5s;
+    font-size: 14px;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+li::after {
+    content: '⚟';
+    opacity: 0;
+    transition: all 0.5s;
+    font-size: 14px;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+li:hover::before {
+    opacity: 1;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+li:hover::after {
+    opacity: 1;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+a:hover {
+    color: #FF5F5F;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.button-test a {
+    text-decoration: none;
+    color: #4E4E4E;
+}
+
+li:hover {
+    color: #FF5F5F;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+
+.icon_1:hover, .icon_2:hover, .icon_3:hover, .icon_4:hover {
+    transform: scale(1.1);
+}
+
+/* Движение комара при наведении */
+#bzz:hover .move-right {
+    transform: translate(300px, 0) rotate(20deg);;
+
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.bz {
+    position: absolute;
+    transition: all 2s ease-in-out;
+    -webkit-transition: all 2s ease-in-out; /** Chrome & Safari **/
+    -moz-transition: all 2s ease-in-out; /** Firefox **/
+    -o-transition: all 2s ease-in-out; /** Opera **/
+}
+
+.questions_list_5 {
+    position: relative;
+
+}
+/*Подсказка при наведении*/
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */
+}
+
+[data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 180px; /* Ширина подсказки */
+    left: 50px;
+    top: 0; /* Положение подсказки */
+    background: #fffaf6; /* цвет фона */
+    color: #4E4E4E; /* Цвет текста */
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 50px;
+    padding: 1em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+    text-align: left;
+}
+
+[data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: -20px; /* Положение подсказки */
+}
+
+/* Увеличение сертификатов при наведении*/
+.cert_1 img:hover, .cert_2 img:hover, .cert_3 img:hover, .cert_4 img:hover, .cert_5 img:hover, .cert_6 img:hover {
+    -webkit-animation: cert_1 1s ease-out both;
+    animation: cert_1 1s ease-out both;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+@-webkit-keyframes cert_1 {
+    0% {
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 130% 130%;
+        transform-origin: 200% 200%;
+    }
+    100% {
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: center;
+        transform-origin: center;
+    }
+}
+
+@keyframes cert_1 {
+    0% {
+        transform: scale(1) translateY(0);
+        -webkit-transform-origin: 50% 16%;
+        transform-origin: 50% 16%;
+    }
+    100% {
+        transform: scale(1.25) translateY(-15px);
+        -webkit-transform-origin: top;
+        transform-origin: top;
+    }
+}
+
+.button-test:hover {
+    background-color: #C7FFAC;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+
+.button-test:active {
+    background: radial-gradient(hsl(99, 100%, 90%), hsl(120, 100%, 90%));
+
+}
+
+.question_button_5:hover, .start_play:hover, .online_6:hover {
+    border-radius: 30px;
+    border: none;
+    background: #C7E9FF;
+    color: #004B83;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.question_button_5:active, .start_play:active, .online_6:active, .ofline_6:active {
+    background: radial-gradient(hsl(0, 0%, 100%), hsl(207, 85%, 92%));
+}
+
+.ofline_6:hover {
+    border: 1px solid #C7E9FF;
+    background: #C7E9FF;
+    color: #004B83;
+    font-style: normal;
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.ofline_6:active {
+    background: radial-gradient(hsl(0, 0%, 100%), hsl(207, 85%, 92%));
+
+}
+
+.accordionItemHeading:hover {
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+    color: #FF5F5F;
+}
+
+.header__burger:hover {
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+    color: #C7E9FF;
+}
+
+
+/* ховер на логотипы магазинов*/
+
+.logos_6 span img {
+    display: grid;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: #fff;
+    color: #fff;
+    font-size: 40px;
+    transition: opacity .4s linear
+}
+
+.logos_6 span img:hover {
+    opacity: 0.9;
+}
+
+.logos_6 a {
+    display: block;
+    position: relative;
+}
+

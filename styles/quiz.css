@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'RubikWetPaint-Regular';
+    src: url('../fonts/RubikWetPaint-Regular.ttf') format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+#test{
+    display: none;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 16px;
+    font-family: 'Montserrat', dash, sans-serif;
+    color: #111;
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    animation: spin 20s alternate-reverse infinite;
+    background: #ffffff url("../images/bzz.svg") 20px 20px no-repeat;
+    flex-direction: column;
+}
+
+@keyframes spin {
+    100% {
+        background-position: 0 100%;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+
+.quiz__head {
+    font-size: 20px;
+    padding: 0;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.head__content {
+    padding: 10px 25px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.quiz__body {
+    padding: 20px;
+    margin: 20px 0 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.quiz__footer {
+    bottom: 10px;
+    display: flex;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+}
+
+.footer__content {
+    padding: 5px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+.button {
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 30px;
+    border: none;
+    background: #004B83;
+    color: #FFF;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    border: 0;
+    width: 40%;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.button:active {
+    border-radius: 30px;
+    border: none;
+    background: #C7E9FF;
+    color: #004B83;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.button_wrong {
+    background: #EB6465;
+}
+
+.button_correct {
+    background: #5EB97D;
+}
+
+.button_passive {
+    background: #B3B3B3;
+}
+
+
+button:hover {
+    cursor: url('../images/spray.svg') 4 1,
+    pointer;
+}
+
+.title_test p {
+    font-family: 'RubikWetPaint-Regular', sans-serif;
+    font-size: 48px;
+    color: #fa82ad;
+}
+
+.title_test p span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    color: #fa82ad;
+}
+@media (max-width: 442px) {
+
+    .title_test p {
+        font-size: 36px;
+    }
+
+    .title_test p span {
+        font-size: 24px;
+    }
+
+    .button {
+        font-size: 16px;
+    }
+    .head__content{
+        font-size: 24px;
+    }
+}

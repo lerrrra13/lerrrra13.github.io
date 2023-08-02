@@ -1,0 +1,17 @@
+
+.zdog-svg {
+    margin: auto auto;
+    background: #ffffff;
+    cursor: move;
+    position: fixed;
+    z-index: 1001;
+}
+
+.loaded_hiding .preloader {
+    transition: 0.3s opacity;
+    opacity: 0;
+}
+
+.loaded .preloader {
+    display: none;
+}
