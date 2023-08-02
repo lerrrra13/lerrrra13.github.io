@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="61ad4a71-6481-48bc-81a2-7727032e052d" name="Changes" comment="Initial commit">
-      <change afterPath="$PROJECT_DIR$/lerrrra13.github.io" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/game/play.html" beforeDir="false" afterPath="$PROJECT_DIR$/game/play.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="61ad4a71-6481-48bc-81a2-7727032e052d" name="Changes" comment="+&#10;Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +21,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="ffd2d218-deb7-4e19-a95f-a56ebb869243" />
+        <option name="url" value="https://github.com/lerrrra13/lerrrra13.github.io" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -97,7 +104,7 @@
       <workItem from="1690283997901" duration="18736000" />
       <workItem from="1690791123844" duration="6889000" />
       <workItem from="1690808916617" duration="21264000" />
-      <workItem from="1690968922911" duration="9772000" />
+      <workItem from="1690968922911" duration="10768000" />
     </task>
     <task id="LOCAL-00001" summary="+">
       <created>1690981146806</created>
@@ -113,7 +120,35 @@
       <option name="project" value="LOCAL" />
       <updated>1690982570426</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+&#10;Initial commit">
+      <created>1690984948960</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690984948960</updated>
+    </task>
+    <task id="LOCAL-00004" summary="+&#10;Initial commit">
+      <created>1690985229931</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690985229931</updated>
+    </task>
+    <task id="LOCAL-00005" summary="+&#10;Initial commit">
+      <created>1690985646698</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1690985646698</updated>
+    </task>
+    <task id="LOCAL-00006" summary="+&#10;Initial commit">
+      <created>1690985913491</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690985913492</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +168,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="+&#10;Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="+&#10;Initial commit" />
   </component>
 </project>
