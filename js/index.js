@@ -216,3 +216,12 @@ document.getElementById('video').onclick = function () {
     field.style.display === 'flex' ? field.style.display = 'none' : field.style.display = 'flex';
 
 }
+InitApp(); //Инициализировать приложение
+
+window.addEventListener("resize", InitApp); //При растягивании окна приложение будет инициализироваться заново
+
+function InitApp() //Растягиваем холст на весь экран
+{
+    body.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}

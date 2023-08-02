@@ -389,12 +389,21 @@ iframe {
 }
 
 .logo_buttons_6 {
-    display: inline-flex;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
     gap: 88px;
     margin-bottom: 60px;
+}
+@media all and (max-width: 942px){
+    .logo_buttons_6 {
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 .ofline_6 {
@@ -845,7 +854,7 @@ iframe {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 }
 
 .header__list {
@@ -853,12 +862,12 @@ iframe {
     align-items: center;
     position: relative;
     z-index: 2;
+    padding-left: 0;
 }
 
 
 .header__list li {
     list-style: none;
-    margin: 0 0 0 20px;
     font-size: 24px;
 }
 
@@ -1042,11 +1051,7 @@ iframe {
         width: 540px;
     }
 
-    .logo_buttons_6 {
-        flex-wrap: nowrap;
-        align-items: center;
-        flex-direction: column;
-    }
+
 
     .expert_5 {
         width: auto;
@@ -1059,9 +1064,6 @@ iframe {
         height: 90px;
     }
 
-    .logo_buttons_6 {
-        gap: 20px;
-    }
 }
 
 @media (max-width: 581px) {
