@@ -121,7 +121,9 @@ li {
 /*проигрыватель*/
 #videoScreen {
     display: none;
+    touch-action: manipulation;
 }
+
 
 #video {
     cursor: url('../images/spray.svg') 4 1,
