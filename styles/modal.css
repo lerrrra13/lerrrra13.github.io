@@ -1,3 +1,10 @@
+::-webkit-contacts-auto-fill-button {
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+}
+
 #pop {
     display: none;
     animation-duration: 1.5s;
@@ -105,6 +112,7 @@ input[type='number'] {
     border-style: none;
     text-align: left;
 }
+
 
 #form input[type="submit"] {
     padding: 10px 40px;

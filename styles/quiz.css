@@ -1,16 +1,19 @@
+
 @font-face {
     font-family: 'RubikWetPaint-Regular';
     src: url('../fonts/RubikWetPaint-Regular.ttf') format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-#test{
+
+#test {
     display: none;
     align-items: center;
     align-content: center;
     flex-direction: column;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -157,6 +160,7 @@ button:hover {
     font-size: 36px;
     color: #fa82ad;
 }
+
 @media (max-width: 442px) {
 
     .title_test p {
@@ -170,7 +174,8 @@ button:hover {
     .button {
         font-size: 16px;
     }
-    .head__content{
+
+    .head__content {
         font-size: 24px;
     }
 }
