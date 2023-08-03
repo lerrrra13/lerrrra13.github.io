@@ -164,6 +164,10 @@ const questions =
             ])
     ];
 
+
+
+
+
 //Сам тест
 const quiz = new Quiz(1, questions, results);
 
@@ -201,7 +205,7 @@ function Update() {
         buttonsElem.innerHTML = "";
         headElem.innerHTML = quiz.results[quiz.result].text;
         pagesElem.innerHTML = "Очки: " + quiz.score;
-
+        document.reload();
     }
 }
 
