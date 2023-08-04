@@ -1100,6 +1100,9 @@ iframe {
         width: 300px;
         height: 280px;
     }
+    #videoScreen{
+        width: 300px;
+    }
     .online_6 {
         margin-bottom: 30px;
     }
@@ -1219,6 +1222,7 @@ iframe {
     .footer_info a {
         font-size: 12px;
     }
+
 }
 
 
