@@ -359,6 +359,10 @@ iframe {
     align-items: flex-start;
     margin-bottom: 18px;
 }
+.tel_1 a span,.tel_2 a span, .tel_3 a span, .tel_4 a span{
+    color: #278ee9;
+}
+
 
 .title_icons_7 {
     color: #4E4E4E;
