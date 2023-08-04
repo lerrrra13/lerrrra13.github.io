@@ -428,7 +428,7 @@ iframe {
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
-
+    /*margin-bottom: 30px;*/
 }
 
 .online_6 {
@@ -1099,6 +1099,9 @@ iframe {
     .slide img {
         width: 300px;
         height: 280px;
+    }
+    .online_6 {
+        margin-bottom: 30px;
     }
 
     .footer_slogan {
