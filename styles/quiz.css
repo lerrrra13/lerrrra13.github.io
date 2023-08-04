@@ -160,7 +160,12 @@ button:hover {
     font-size: 36px;
     color: #fa82ad;
 }
-
+@media (max-width: 742px){
+    .button {
+        font-size: 16px;
+        width: 80%;
+    }
+}
 @media (max-width: 442px) {
 
     .title_test p {
@@ -173,6 +178,7 @@ button:hover {
 
     .button {
         font-size: 16px;
+        width: 80%;
     }
 
     .head__content {
