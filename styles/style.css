@@ -403,7 +403,7 @@ iframe {
     align-items: center;
     align-content: center;
     gap: 88px;
-    margin-bottom: 60px;
+
 }
 @media all and (max-width: 942px){
     .logo_buttons_6 {
