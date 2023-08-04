@@ -433,13 +433,13 @@ iframe {
 
 .online_6 {
     display: flex;
+    background-color: white;
     padding: 10px 40px;
     align-items: flex-start;
     gap: 10px;
     border-radius: 30px;
-    border: none;
-    background: #004B83;
-    color: #FFF;
+    border: 1px solid #7CCDFF;
+    color: #004B83;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     font-style: normal;

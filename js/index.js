@@ -85,13 +85,16 @@ function toggleElements1() {
     const elements1 = document.getElementsByClassName('toggle-element1');
     //
     const isHidden = Array.from(elements1).some(element => element.style.display === 'none');
-
+    let color = '#97d5ff';
+    let color1 = 'white';
     // Проверка видимости элементов
     Array.from(elements1).forEach(element => {
         if (isHidden) {
             element.style.display = 'block';
+            button_ofline.style.background = color1;
         } else {
             element.style.display = 'none';
+            button_online.style.background = color1;
         }
     });
     Array.from(elements).forEach(element => {
@@ -99,6 +102,7 @@ function toggleElements1() {
             element.style.display = 'block';
         } else {
             element.style.display = 'block';
+            button_ofline.style.background = color;
         }
     });
 }
@@ -112,13 +116,18 @@ function toggleElements() {
     const elements1 = document.getElementsByClassName('toggle-element1');
     //
     const isHidden = Array.from(elements).some(element => element.style.display === 'none');
-
+    let color = '#97d5ff';
+    let color1 = 'white';
     // проверка видимости элементов
     Array.from(elements).forEach(element => {
         if (isHidden) {
             element.style.display = 'block';
+            button_online.style.background = color1;
+
         } else {
             element.style.display = 'none';
+            button_ofline.style.background = color1;
+
         }
     });
     Array.from(elements1).forEach(element => {
@@ -126,11 +135,12 @@ function toggleElements() {
             element.style.display = 'block';
         } else {
             element.style.display = 'block';
+            button_online.style.background = color;
         }
     });
 }
 
-// Добавление события на кнопку
+// Добавление события на кнопку logo
 
 const logo_6 = document.querySelector('.logo_6');
 logo_6.addEventListener('click', visualElementsAll);
@@ -140,13 +150,17 @@ function visualElementsAll() {
     const elements1 = document.getElementsByClassName('toggle-element1');
     //
     const isHidden = Array.from(elements1).some(element => element.style.display === 'none');
-
+    let color1 = 'white';
     // проверка видимости элементов
     Array.from(elements1).forEach(element => {
         if (isHidden) {
             element.style.display = 'block';
+            button_ofline.style.background = color1;
+            button_online.style.background = color1;
         } else {
             element.style.display = 'block';
+            button_ofline.style.background = color1;
+            button_online.style.background = color1;
         }
     });
     Array.from(elements).forEach(element => {

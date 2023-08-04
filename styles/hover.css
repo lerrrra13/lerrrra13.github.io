@@ -161,7 +161,7 @@ li:hover {
 
 }
 
-.question_button_5:hover, .start_play:hover, .online_6:hover {
+.question_button_5:hover, .start_play:hover {
     border-radius: 30px;
     border: none;
     background: #C7E9FF;
@@ -179,7 +179,7 @@ li:hover {
     background: radial-gradient(hsl(0, 0%, 100%), hsl(207, 85%, 92%));
 }
 
-.ofline_6:hover {
+.ofline_6:hover, .online_6:hover {
     border: 1px solid #C7E9FF;
     background: #C7E9FF;
     color: #004B83;
@@ -188,7 +188,7 @@ li:hover {
     pointer;
 }
 
-.ofline_6:active {
+.ofline_6:active, .online_6:active {
     background: radial-gradient(hsl(0, 0%, 100%), hsl(207, 85%, 92%));
 
 }
