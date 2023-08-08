@@ -68,22 +68,22 @@ input[type='number'] {
 #form h3 {
     text-align: center;
     color: #04073f;
-    padding:10px 0 30px;
+    padding: 10px 0 30px;
     font-size: 18px;
 }
-.form{
-     display: flex;
-     flex-direction: column;
-     width: 80%;
-     margin: 0 auto;
-     border-radius: 50px;
-     padding: 20px;
-     background: #EDF6FF;
-     text-align: center;
-     font-family: 'Montserrat', sans-serif;
-     font-size: 16px;
- }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 20px;
+    background: #EDF6FF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+}
 
 
 #form label {

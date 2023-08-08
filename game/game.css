@@ -20,12 +20,14 @@ html {
     animation-fill-mode: both;
     animation-name: fadeIn;
 }
-.moskito{
+
+.moskito {
     display: flex;
     align-items: center;
     align-content: center;
 }
-.text{
+
+.text {
     background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
@@ -33,7 +35,8 @@ html {
     align-items: center;
     align-content: center;
 }
-.text_button{
+
+.text_button {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,6 +44,7 @@ html {
     align-content: center;
 
 }
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -106,7 +110,7 @@ p span {
 }
 
 button {
-display: flex;
+    display: flex;
     padding: 10px 40px;
     border-radius: 30px;
     background: #004B83;

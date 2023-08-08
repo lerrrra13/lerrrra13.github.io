@@ -40,9 +40,11 @@ a:hover {
     cursor: url('../images/spray.svg') 4 1,
     pointer;
 }
-.tel_1 a span:hover,.tel_2 a span:hover, .tel_3 a span:hover, .tel_4 a span:hover{
+
+.tel_1 a span:hover, .tel_2 a span:hover, .tel_3 a span:hover, .tel_4 a span:hover {
     color: #FF5F5F;
 }
+
 .button-test a {
     text-decoration: none;
     color: #4E4E4E;
@@ -85,6 +87,7 @@ li:hover {
     position: relative;
 
 }
+
 /*Подсказка при наведении*/
 [data-tooltip] {
     position: relative; /* Относительное позиционирование */

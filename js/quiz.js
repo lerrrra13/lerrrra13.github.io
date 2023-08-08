@@ -2,12 +2,12 @@ document.getElementById('start_test').onclick = function () {
     let test = document.getElementById('test');
     test.style.display === 'flex' ? test.style.display = 'none' : test.style.display = 'flex';
     const start_test = document.getElementById('start_test');
-    start_test.innerText === 'Пройти тест' ? start_test.innerText  = 'Скрыть тест' : start_test.innerText  = 'Пройти тест';
+    start_test.innerText === 'Пройти тест' ? start_test.innerText = 'Скрыть тест' : start_test.innerText = 'Пройти тест';
     window.scrollTo(0, 0);
 }
 
 
-    const headElem = document.getElementById("head"), buttonsElem = document.getElementById("buttons"),
+const headElem = document.getElementById("head"), buttonsElem = document.getElementById("buttons"),
     pagesElem = document.getElementById("pages");
 
 //Класс, который представляет сам тест

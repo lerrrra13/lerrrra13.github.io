@@ -230,3 +230,4 @@ document.getElementById('video').onclick = function () {
     field.style.display === 'flex' ? field.style.display = 'none' : field.style.display = 'flex';
 
 }
+
