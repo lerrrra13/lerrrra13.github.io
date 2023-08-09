@@ -207,6 +207,8 @@ menuLinks.forEach((link) =>
         burger.classList.remove("active");
     })
 );
+
+
 //Проигрыватель
 // Добавляем кнопку
 
