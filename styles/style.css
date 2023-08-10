@@ -147,7 +147,9 @@ li {
     line-height: 28px;
 }
 
-.title2 {
+.title2 a {
+    display: flex;
+    justify-content: center;
     color: #004B83;
     text-align: center;
     font-size: 48px;
@@ -161,7 +163,9 @@ li {
 
 }
 
-.title3 {
+.title3 a {
+    display: flex;
+    justify-content: center;
     color: #FBAA09;
     text-align: center;
     font-size: 48px;
@@ -173,7 +177,9 @@ li {
     padding-bottom: 60px;
 }
 
-.title4 {
+.title4 a{
+    display: flex;
+    justify-content: center;
     color: #FF5F5F;
     text-align: center;
     font-size: 48px;
@@ -185,7 +191,9 @@ li {
     padding-bottom: 60px;
 }
 
-.title5 {
+.title5 a {
+    display: flex;
+    justify-content: center;
     color: #A0073E;
     text-align: center;
     font-size: 48px;
@@ -197,7 +205,9 @@ li {
     padding-bottom: 60px;
 }
 
-.title6 {
+.title6 a {
+    display: flex;
+    justify-content: center;
     color: #004B83;
     text-align: center;
     font-size: 48px;
@@ -209,7 +219,9 @@ li {
     padding-bottom: 60px;
 }
 
-.title7 {
+.title7 a {
+    display: flex;
+    justify-content: center;
     color: #FBAA09;
     text-align: center;
     font-size: 48px;
@@ -406,7 +418,7 @@ iframe {
 
 }
 
-.ofline_6 {
+.ofline_6, .online_6 {
     display: flex;
     background-color: white;
     padding: 10px 40px;
@@ -422,23 +434,6 @@ iframe {
     line-height: 30px;
     /*margin-bottom: 30px;*/
 }
-
-.online_6 {
-    display: flex;
-    background-color: white;
-    padding: 10px 40px;
-    align-items: flex-start;
-    gap: 10px;
-    border-radius: 30px;
-    border: 1px solid #7CCDFF;
-    color: #004B83;
-    font-size: 18px;
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30px;
-}
-
 
 .logos_6 {
     display: flex;
