@@ -66,6 +66,7 @@ fly.addEventListener("click", function () {
     fly.style.display = "none";
     noFly.style.display = "block";
     let text = document.getElementById('text');
+    text.style.display = "flex";
     text.innerHTML = "Да вы мастер антикомариной борьбы!<br> " +
         "<span>Чтобы еще раз побороться с комаром - брызните спреем мальчика:)</span>";
 
@@ -78,6 +79,7 @@ noFly.addEventListener("click", function () {
     noFly.style.display = "none";
     let text = document.getElementById('text');
     text.innerHTML = "";
+    text.style.display = "none";
 
 
 });

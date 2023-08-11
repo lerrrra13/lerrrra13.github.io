@@ -59,7 +59,7 @@ class Cursor {
 
 new Cursor();
 
-// плавный скролл
+// плавный скрол
 
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
 for (let smoothLink of smoothLinks) {
@@ -73,6 +73,7 @@ for (let smoothLink of smoothLinks) {
         });
     });
 }
+
 
 
 //отображение Офлайн магазинов
