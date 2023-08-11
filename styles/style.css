@@ -18,9 +18,11 @@
     font-style: normal;
     font-weight: normal;
 }
+
 html {
     scroll-behavior: smooth;
 }
+
 h2, h1, h3 {
     display: block;
     margin-block-start: 0;
@@ -179,7 +181,7 @@ li {
     padding-bottom: 60px;
 }
 
-.title4 a{
+.title4 a {
     display: flex;
     justify-content: center;
     color: #FF5F5F;
