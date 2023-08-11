@@ -68,7 +68,7 @@ fly.addEventListener("click", function () {
     let text = document.getElementById('text');
     text.style.display = "flex";
     text.innerHTML = "Да вы мастер антикомариной борьбы!<br> " +
-        "<span>Чтобы еще раз побороться с комаром - брызните спреем мальчика:)</span>";
+        "<span>Чтобы еще раз побороться с комаром - кликните по мальчику:)</span>";
 
 });
 
