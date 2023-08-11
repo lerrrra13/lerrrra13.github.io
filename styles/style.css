@@ -1090,7 +1090,7 @@ iframe {
         padding: 40px 10px 0 10px;
     }
 
-    .main_title span, .title2, .title3, .title4, .title5, .title6, .title7 {
+    .main_title span, .title2 a, .title3 a, .title4 a, .title5 a, .title6 a, .title7 a {
         font-size: 24px;
         padding: 100px 25px 40px;
     }
