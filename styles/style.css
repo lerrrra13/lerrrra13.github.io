@@ -1096,7 +1096,9 @@ iframe {
         font-size: 24px;
         padding: 100px 25px 40px;
     }
-
+    .tel_1 a span, .tel_2 a span, .tel_3 a span, .tel_4 a span {
+        font-size: 16px;
+    }
     .main_title span {
         line-height: 60px;
         font-size: 36px;
@@ -1186,8 +1188,7 @@ iframe {
     .field {
         padding: 20px 30px;
     }
-
-    .block_7_contacts a {
+    .title7 a{
         font-size: 24px;
     }
 
